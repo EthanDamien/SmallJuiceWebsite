@@ -4,12 +4,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Styrene&display=swap");
 @font-face{
   font-family: "Styrene";
-  src: url(assets/StyreneAWeb-Regular.ttf);
+  src: url(assets/fonts/StyreneAWeb-Regular.ttf);
 }
 
 @font-face{
   font-family: "StyreneB";
-  src: url(assets/StyreneAWeb-Bold.ttf);
+  src: url(assets/fonts/StyreneAWeb-Bold.ttf);
+}
+@font-face{
+  font-family: "Volte";
+  src: url(assets/fonts/Volte-Medium.ttf);
+}
+@font-face{
+  font-family: "VolteB";
+  src: url(assets/fonts/Volte-Bold.ttf);
 }
 
 html {
@@ -23,7 +31,7 @@ h1{
   font-family: "Styrene", sans-serif; 
 }
 h2{
-  font-family: "Styrene", sans-serif;
+  font-family: "StyreneB", sans-serif;
 }
 h3{
   font-family: "Styrene", sans-serif;
@@ -91,10 +99,9 @@ header {
   margin-right: auto;
   display: block;
   width: 33vh;
-  height: 33vh;
-  background-image: url(assets/OMW.png);
+  height: 33.8vh;
+  background-image: url(assets/OMWLOGO.png);
   background-size: 100%;
-  filter: drop-shadow(0px 5px 5px #292929);
 }
 .logo2 {
   position: absolute;
