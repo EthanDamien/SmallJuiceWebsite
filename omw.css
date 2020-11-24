@@ -7,6 +7,11 @@
   src: url(assets/StyreneAWeb-Regular.ttf);
 }
 
+@font-face{
+  font-family: "StyreneB";
+  src: url(assets/StyreneAWeb-Bold.ttf);
+}
+
 html {
   max-width: 100%;
   overflow-x: hidden;
@@ -14,7 +19,13 @@ html {
   --thumbBG: #90a4ae;
   scroll-behavior: smooth;
 }
+h1{
+  font-family: "Styrene", sans-serif; 
+}
 h2{
+  font-family: "Styrene", sans-serif;
+}
+h3{
   font-family: "Styrene", sans-serif;
 }
 body::-webkit-scrollbar {
@@ -73,8 +84,8 @@ header {
   background-size: 100%;
 }
 .bigLogo2 {
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -252,6 +263,7 @@ p {
   background-color: #ff8c61;
   border: none;
   top: 0px;
+  font-family: "Styrene", sans-serif;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
@@ -300,7 +312,7 @@ p {
   display: block;
   overflow: hidden;
   position: relative;
-  top: -50px;
+  height: 100vh;
   text-align: center;
 }
 .juice-info p {
