@@ -21,18 +21,18 @@
 }
 
 .jbutton {
-	background-color:#000000;
-	border-radius:42px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: "Styrene", sans-serif;
-	font-size:17px;
-	padding:5px 20px;
-	text-decoration:none;
+  background-color: #000000;
+  border-radius: 42px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Styrene", sans-serif;
+  font-size: 17px;
+  padding: 5px 20px;
+  text-decoration: none;
 }
 .jbutton:hover {
-	background: linear-gradient(270deg, #b500d2, #ffa309);
+  background: linear-gradient(270deg, #b500d2, #ffa309);
   background-size: 400% 400%;
 
   -webkit-animation: Juice 13s ease infinite;
@@ -40,8 +40,8 @@
   animation: Juice 13s ease infinite;
 }
 .jbutton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
 html {
@@ -63,7 +63,7 @@ h3 {
 body::-webkit-scrollbar {
   width: 11px;
 }
-h4{
+h4 {
   font-family: "Volte", sans-serif;
 }
 body {
@@ -103,7 +103,6 @@ strong {
   -webkit-animation: Juice 13s ease infinite;
   -moz-animation: Juice 13s ease infinite;
   animation: Juice 13s ease infinite;
-
 }
 header {
   width: 100%;
@@ -635,6 +634,9 @@ a {
     animation: 1s ease;
   }
 
+  .signup {
+    background-color: #af3535;
+  }
   .bigLogo {
     position: relative;
     margin-left: auto;
