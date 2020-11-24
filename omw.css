@@ -124,16 +124,23 @@ p {
 }
 
 .screens {
-  margin-top: 50px;
+  margin-top: 150px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.screenText {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .screen {
-  height: 30px;
-  width: 30px;
-  background-color: tomato;
+  height: auto;
+  width: auto;
 }
 
 .center {
