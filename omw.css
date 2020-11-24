@@ -27,6 +27,7 @@
   cursor: pointer;
   color: #ffffff;
   font-family: "Styrene", sans-serif;
+  border: none;
   font-size: 17px;
   padding: 5px 20px;
   text-decoration: none;
@@ -942,4 +943,8 @@ a {
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+}
+.signup {
+  font-family: "Styrene", sans-serif;
+  font-size: 20px;
 }
