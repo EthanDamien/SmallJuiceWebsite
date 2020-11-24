@@ -20,6 +20,30 @@
   src: url(assets/fonts/Volte-Bold.ttf);
 }
 
+.jbutton {
+	background-color:#000000;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Styrene", sans-serif;
+	font-size:17px;
+	padding:5px 20px;
+	text-decoration:none;
+}
+.jbutton:hover {
+	background: linear-gradient(270deg, #b500d2, #ffa309);
+  background-size: 400% 400%;
+
+  -webkit-animation: Juice 13s ease infinite;
+  -moz-animation: Juice 13s ease infinite;
+  animation: Juice 13s ease infinite;
+}
+.jbutton:active {
+	position:relative;
+	top:1px;
+}
+
 html {
   max-width: 100%;
   overflow-x: hidden;
@@ -38,6 +62,9 @@ h3{
 }
 body::-webkit-scrollbar {
   width: 11px;
+}
+h4{
+  font-family: "Volte", sans-serif;
 }
 body {
   width: 100%;
@@ -67,13 +94,24 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid var(--scrollbarBG);
 }
 
+strong {
+  background: linear-gradient(270deg, #b500d2, #ffa309);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  -webkit-animation: Juice 13s ease infinite;
+  -moz-animation: Juice 13s ease infinite;
+  animation: Juice 13s ease infinite;
+
+}
 header {
   width: 100%;
   min-height: 100vh;
   box-sizing: border-box;
   padding: 0;
   overflow: hidden;
-  background: linear-gradient(270deg, #8f384d, #5c6e91);
+  background: linear-gradient(270deg, #b500d2, #ffa309);
   background-size: 400% 400%;
 
   -webkit-animation: Juice 13s ease infinite;
@@ -171,6 +209,8 @@ p {
 .center {
   margin-left: auto;
   margin-right: auto;
+  padding-right: 20vw;
+  padding-left: 20vw;
   margin-bottom: 30px;
   margin-top: 5px;
   text-align: center;
