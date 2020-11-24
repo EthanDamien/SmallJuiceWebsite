@@ -152,12 +152,12 @@ Hit us up</strong></a> if you want one like this.</p></div>
       //when we are on the about tab
       $(document).on('scroll', function() {
       if(($(document).scrollTop()>=$('#about').offset().top-5)&&($(document).scrollTop()<$('#projects').offset().top+1)){
-        $("#about-button").css({"width":"60%", "height":"120px", "background-color": "#FFDF8F","border":"none"});
+        $("#about-button").css({"width":"60%", "height":"120px", "background-color": "#C65ED6","border":"none","color": "white"});
         $("#projects-button").css({width:"20%"})
         $("#query-button").css({width:"20%"})
       }
         else{
-          $("#about-button").css({"height":"100px", "background-color": "#ff8c61","border":"none", "width":"33.33%"});
+          $("#about-button").css({"height":"100px", "background-color": "white","border":"none", "width":"33.33%","color": "black"});
           $("#projects-button").css({width:"33.33%"})
           $("#query-button").css({width:"33.33%"})
         }
@@ -167,12 +167,12 @@ Hit us up</strong></a> if you want one like this.</p></div>
   
       $(document).on('scroll', function() {
       if(($(document).scrollTop()>=$('#projects').offset().top-1)&&($(document).scrollTop()<$('#query').offset().top+1)){
-        $("#projects-button").css({"width":"60%", "height":"120px", "background-color": "#FFDF8F","border":"none"});
-        $("#about-button").css({width:"20%","background-color": "#ff8c61", "height": "100px"})
-        $("#query-button").css({width:"20%","background-color": "#ff8c61"})
+        $("#projects-button").css({"width":"60%", "height":"120px", "background-color": "#C65ED6","border":"none", "color": "white"});
+        $("#about-button").css({width:"20%","background-color": "white", "height": "100px", "color": "black"})
+        $("#query-button").css({width:"20%","background-color": "white","color": "black"})
       }
         else{
-          $("#projects-button").css({"height":"100px", "background-color": "#ff8c61","border":"none"});
+          $("#projects-button").css({"height":"100px", "background-color": "white","border":"none","color": "black"});
         }
       })
       
@@ -180,12 +180,12 @@ Hit us up</strong></a> if you want one like this.</p></div>
   
       $(document).on('scroll', function() {
       if(($(document).scrollTop()>=$('#query').offset().top-1)){
-        $("#query-button").css({"width":"60%", "height":"120px", "background-color": "#FFDF8F","border":"none"});
+        $("#query-button").css({"width":"60%", "height":"120px", "background-color": "#C65ED6","border":"none","color": "white"});
         $("#about-button").css({width:"20%"})
-        $("#projects-button").css({width:"20%","background-color": "#ff8c61", "height": "100px"})
+        $("#projects-button").css({width:"20%","background-color": "white", "height": "100px","color": "black"})
       }
         else{
-          $("#query-button").css({"height":"100px", "background-color": "#ff8c61","border":"none"});
+          $("#query-button").css({"height":"100px", "background-color": "white","border":"none","color": "black"});
         }
       })
   

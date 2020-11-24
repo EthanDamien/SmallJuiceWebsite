@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Styrene&display=swap");
+@font-face{
+  font-family: "Styrene";
+  src: url(assets/StyreneAWeb-Regular.ttf);
+}
+
 html {
   max-width: 100%;
   overflow-x: hidden;
@@ -9,7 +14,9 @@ html {
   --thumbBG: #90a4ae;
   scroll-behavior: smooth;
 }
-
+h2{
+  font-family: "Styrene", sans-serif;
+}
 body::-webkit-scrollbar {
   width: 11px;
 }
@@ -104,7 +111,7 @@ header {
 }
 p {
   font-size: 50px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Styrene", sans-serif;
 }
 .pinfo {
   font-size: 25px;
@@ -119,7 +126,7 @@ p {
   position: sticky;
   top: 0;
   z-index: 1;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Styrene", sans-serif;
   white-space: nowrap;
 }
 
@@ -250,9 +257,6 @@ p {
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   z-index: 1;
-  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.27);
-  -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.27);
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.27);
 }
 
 .footer {
@@ -304,7 +308,7 @@ p {
   margin-left: 20%;
   margin-right: 20%;
   font-size: 25px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Styrene", sans-serif;
 }
 .juice-info .question {
   font-size: 25px;
@@ -327,7 +331,7 @@ p {
 
 .style1 {
   font-size: 30px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Styrene", sans-serif;
   text-align: center;
 }
 
@@ -349,14 +353,14 @@ p {
 }
 .names {
   padding-top: 10px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Styrene", sans-serif;
   font-size: 30px;
   padding-bottom: 10px;
 }
 .project {
   position: relative;
   padding: auto;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Styrene", sans-serif;
   font-size: 30px;
   text-align: center;
   vertical-align: middle;
@@ -632,7 +636,7 @@ a {
 
   .style1 {
     font-size: 30px;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Styrene", sans-serif;
     text-align: center;
   }
 
@@ -650,11 +654,11 @@ a {
     text-align: center;
   }
   .names {
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Styrene", sans-serif;
     font-size: 30px;
   }
   .project {
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Styrene", sans-serif;
     font-size: 4vw;
     text-align: center;
     vertical-align: middle;
