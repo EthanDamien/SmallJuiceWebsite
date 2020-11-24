@@ -123,6 +123,27 @@ p {
   white-space: nowrap;
 }
 
+.screens {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.screen {
+  height: 30px;
+  width: 30px;
+  background-color: tomato;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
 #juicebar {
   position: sticky;
   position: -webkit-sticky;
