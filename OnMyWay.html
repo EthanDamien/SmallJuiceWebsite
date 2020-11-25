@@ -12,7 +12,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<title>Small Juice</title>
+	<title>On My Way</title>
   
 </head>  
   
@@ -46,9 +46,14 @@
       
       
       <div id="navbar">
-        <button id="about-button" class="navel">About</button>
-        <button id="projects-button" class="navel">Demo</button>
-        <button id="query-button" class="navel">Sign up</button>
+        <a href= "#about">
+        <button id="about-button" class="navel">About</button></a>
+        <a href= "#projects">
+        <button id="projects-button" class="navel" href="#projects">Demo</button>
+        </a>
+        <a href="#query">
+        <button id="query-button" class="navel" href="#query">Sign up</button>
+        </a>
       </div>
       
       
@@ -58,7 +63,7 @@
         <div class="bigLogo2" data-aos="fade-up"></div>
         <div class="center" ><h4 style="margin-bottom: 30px">All the worlds current events will be stored in one place for you to explore. Find networking, social events, campus events, concerts and more. We designed it to be convenient from the ground up.
         </h4>
-        <a href="#" class="jbutton hvr-bob">I'M ALREADY INTERESTED</a>
+        <a href="#query" class="jbutton hvr-bob">I'M ALREADY INTERESTED</a>
       </div>
       
       <div id="projects" class="divider"></div>
@@ -119,7 +124,7 @@
       
       
       
-      
+      <div id="AlreadyInterested"></div>
       <div id="query" class="divider"style = "margin-bottom: 100px"></div>
       <!-- Begin Mailchimp Signup Form -->
       <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
@@ -151,9 +156,9 @@
   <div class="smallJuiceLogo"></div>
   <h5> About Small Juice </h5>
   <p>
-    Small Juice is a company made by a duo of determined Software Engineers, Kevin Cubillos and Ethan Damien.
-    On My Way is our idea to keep people fully engaged with the organizations they love, and for newcomers
-    to find new communities to become a part of.
+    Small Juice is a company made by a duo of determined Software Engineers, <strong>Kevin</strong> <strong>Cubillos</strong> and <strong>Ethan</strong> <strong>Damien</strong>.
+    On My Way is a way to keep people fully engaged with the organizations they love, and for newcomers
+    to find new communities.
   </p>
 </div>
       
@@ -245,24 +250,5 @@
           $("#query-button").css({"height":"100px", "background-color": "white","border":"none","color": "black"});
         }
       })
-  
-      $("#about-button").click(function() {
-    $([document.documentElement, document.body]).animate({
-        scrollTop: $("#about").offset().top
-      }, 1000);
-        $("#about-button").css({'outline':'none'});
-      })
-  
-      $("#projects-button").click(function() {
-    $([document.documentElement, document.body]).animate({
-        scrollTop: $("#projects").offset().top
-      }, 1000);
-        $("#projects-button").css({'outline':'none'});
-      });
-  $("#query-button").click(function() {
-    $([document.documentElement, document.body]).animate({
-        scrollTop: $("#query").offset().top
-      }, 1000);
-      $("#query-button").css({'outline':'none'});
-      });
+;
 </script>
