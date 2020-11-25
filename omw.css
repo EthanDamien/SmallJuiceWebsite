@@ -20,6 +20,12 @@
   src: url(assets/fonts/Volte-Bold.ttf);
 }
 
+input { 
+  border-style: none; 
+  background: transparent; 
+  outline: none; 
+}
+
 .emailBox {
   width: 100%;
   background-color: #f1f1f1;
@@ -986,3 +992,4 @@ a {
   font-family: "Styrene", sans-serif;
   font-size: 20px;
 }
+
