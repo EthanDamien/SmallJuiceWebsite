@@ -20,10 +20,10 @@
   src: url(assets/fonts/Volte-Bold.ttf);
 }
 
-input { 
-  border-style: none; 
-  background: transparent; 
-  outline: none; 
+input {
+  border-style: none;
+  background: transparent;
+  outline: none;
 }
 
 .emailBox {
@@ -51,6 +51,7 @@ input {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  width: 60vw;
 }
 
 .aboutUs p {
@@ -59,6 +60,8 @@ input {
 
 .aboutUs img {
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .jbutton2 {
@@ -163,6 +166,17 @@ header {
   -webkit-animation: Juice 13s ease infinite;
   -moz-animation: Juice 13s ease infinite;
   animation: Juice 13s ease infinite;
+}
+
+.smallJuiceLogo {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 35vh;
+  height: 16vh;
+  background-image: url(assets/SmallJuiceIcon2.png);
+  background-size: 100%;
 }
 
 .bigLogo {
@@ -992,4 +1006,3 @@ a {
   font-family: "Styrene", sans-serif;
   font-size: 20px;
 }
-
