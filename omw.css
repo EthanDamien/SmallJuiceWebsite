@@ -20,6 +20,31 @@
   src: url(assets/fonts/Volte-Bold.ttf);
 }
 
+.emailBox {
+  width: 100%;
+  background-color: #f1f1f1;
+  border-style: solid;
+  border-radius: 10%;
+  border-width: 5px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.subscribeBox {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.jbutton2 {
+  font-size: 22px;
+  height: 60px;
+}
+
 .jbutton {
   background-color: #000000;
   border-radius: 42px;
@@ -317,9 +342,6 @@ p {
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   z-index: 1;
-}
-
-.emailBox {
 }
 
 .footer {
