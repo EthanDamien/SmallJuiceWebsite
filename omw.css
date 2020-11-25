@@ -20,6 +20,13 @@
   src: url(assets/fonts/Volte-Bold.ttf);
 }
 
+input { 
+  border-style: none; 
+  background: transparent; 
+  outline: none; 
+}
+
+
 .jbutton {
   background-color: #000000;
   border-radius: 42px;
@@ -948,3 +955,4 @@ a {
   font-family: "Styrene", sans-serif;
   font-size: 20px;
 }
+
