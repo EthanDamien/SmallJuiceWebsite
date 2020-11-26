@@ -213,13 +213,13 @@ header {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 48vh;
+  bottom: 44vh;
   margin-left: auto;
   margin-right: auto;
-  width: 450px;
-  height: 105px;
+  width: 432.6666666px;
+  height: 116.3333350px;
   background-image: url(assets/OMWText.png);
-  background-size: 450px 105px;
+  background-size: 432.66666px 116.333333px;
 }
 .logo {
   position: absolute;
@@ -255,7 +255,7 @@ p {
 }
 
 .screens {
-  margin-top: 150px;
+  margin-top: 144.22222px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -374,7 +374,7 @@ p {
   opacity: 100%;
   width: 33.33%;
   position: relative;
-  font-size: 35px;
+  font-size: 38.777777px;
   height: 100px;
   float: left;
   background-color: #ff8c61;
@@ -765,10 +765,10 @@ a {
     bottom: 50vh;
     margin-left: auto;
     margin-right: auto;
-    width: 150px;
-    height: 35px;
+    width: 144.22222px;
+    height: 38.777777px;
     background-image: url(assets/OMWText.png);
-    background-size: 150px 35px;
+    background-size: 144.22222px 38.777777px;
   }
   .navel {
     font-size: 25px;
@@ -843,7 +843,7 @@ a {
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
   animation: animate 25s linear infinite;
-  bottom: -150px;
+  bottom: -144.22222px;
 }
 
 .circles li:nth-child(1) {
@@ -915,8 +915,8 @@ a {
 
 .circles li:nth-child(10) {
   left: 70%;
-  width: 150px;
-  height: 150px;
+  width: 144.22222px;
+  height: 144.22222px;
   animation-delay: 0s;
   animation-duration: 17s;
 }
