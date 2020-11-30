@@ -56,7 +56,7 @@ input {
 
 .aboutUs {
   text-align: center;
-  align-items:center;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -1135,4 +1135,10 @@ a {
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
