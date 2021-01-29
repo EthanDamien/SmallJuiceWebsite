@@ -179,7 +179,14 @@ body::-webkit-scrollbar-thumb {
   border-radius: 6px;
   border: 3px solid var(--scrollbarBG);
 }
-
+iframe {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 25%;
+  width: 40vw; 
+  height: 20vw;
+}
 strong {
   background: linear-gradient(270deg, #b500d2, #ffa309);
   -webkit-background-clip: text;
@@ -765,6 +772,14 @@ a {
   animation-iteration-count: 1;
 }
 @media screen and (max-width: 580px) {
+  iframe {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25%;
+    width: 80vw; 
+    height: 40vw;
+  }
   #juicebar-1 {
     position: absolute;
     background-image: url(assets/assets/orange%20scrollbar.png);
@@ -1149,16 +1164,4 @@ a {
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
-.iframe-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%;
-  height: 0;
-}
-.iframe-container iframe {
-  position: absolute;
-  top: 25%;
-  left: 25%;
-  width: 50%;
-  height: 50%;
-}
+
