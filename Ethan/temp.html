@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<!--meta-->
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, minimum-scale=1">
+
+	<!--Link bootstrap, css and fonts-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel = "stylesheet" type = "text/css" href="omw.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>Small Juice</title>
+  
+</head>  
+  
+  
+  
+  
+  <body>
+    <header>
+      <a href="https://smalljuice.com">
+      
+      <div class = "logo2" data-aos="zoom-out"></div>
+      </a>
+      <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </header>
+    
+    
+    <div class = "stuff">
+      
+      
+      
+      
+      <div id="navbar">
+        <button id="about-button" class="navel">About</button>
+        <button id="projects-button" class="navel">Demo</button>
+        <button id="query-button" class="navel">Sign up</button>
+      </div>
+      
+      
+      
+      <div id="about" class="divider" style="top: -100px;"></div>
+        <div class="center" style="margin-top: 20px;"> <h2>Finding plans was <strong>never this easy</strong></h2> </div>
+        <div class="bigLogo2" data-aos="fade-up"></div>
+        <div class="center"><h4>All the worlds current events will be stored in one place for you to explore. Find networking, social events, campus events, concerts and more. We designed it to be convenient from the ground up.
+        </h4>
+        <a href="#" class="jbutton">I'M INTERESTED</a>
+      </div>
+      
+      <div id="projects" class="divider"></div>
+      
+        <div class="screens">
+         
+          <div class="screen">
+            <img src="./assets/OMWss/PROFILE.png" height="450px" width="auto">
+          </div>
+          <div class="screenText">
+            <h2>Explore events everywhere</h2>
+          </div>
+
+        </div>
+        <div class="screens">
+          <div class="screenText">
+            <h2>Listen to my Juice</h2>
+          </div>
+          <div class="screen">
+            <img src="./assets/OMWss/HOMESCREEN.png" height="450px" width="auto">
+          </div>
+        </div>
+
+        <div class="screens">
+         
+          <div class="screen">
+            <img src="./assets/OMWss/PROFILE.png" height="450px" width="auto">
+          </div>
+          <div class="screenText">
+            <h2>Listen to my Juice</h2>
+          </div>
+
+        </div>
+        
+        <br>
+      
+      
+      
+      
+      <div id="query" class="divider"></div>
+      <hr>
+      
+      
+      
+      
+      </a>
+      <div class="juice-info" style="top:5px">
+        <p>
+          <a href="mailto:smalljuicecompany@gmail.com" class="hvr-buzz-out"><strong>Hit us up</strong></a> if you want one like this.
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="wave1"><a href="https://smalljuice.com"><div class="smaljuce"></div></a></div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>
+<script>
+      AOS.init({
+      duration:1500,
+      });
+      window.onscroll = function() {stick()};
+
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function stick() {
+      if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+      } else {
+      navbar.classList.remove("sticky");
+      }
+      }
+  
+      //juicebar scroll
+      $(document).on('scroll', function() {
+        $("#juicebar-1").css({"transform" : "rotate(-"+$(document).scrollTop()/40+"deg)", "-webkit-transform" : "rotate(-"+$(document).scrollTop()/40+"deg)", "-moz-transform" : "rotate(-"+$(document).scrollTop()/40+"deg)", "-ms-transform" : "rotate(-"+$(document).scrollTop()/40+"deg)"})
+        
+        $("#juicebar-2").css({"transform" : "rotate(-"+$(document).scrollTop()/14+"deg)", "-webkit-transform" : "rotate(-"+$(document).scrollTop()/14+"deg)", "-moz-transform" : "rotate(-"+$(document).scrollTop()/14+"deg)", "-ms-transform" : "rotate(-"+$(document).scrollTop()/14+"deg)"})
+        
+        $("#juicebar-3").css({"transform" : "rotate(-"+$(document).scrollTop()/14+"deg)", "-webkit-transform" : "rotate(-"+$(document).scrollTop()/14+"deg)", "-moz-transform" : "rotate(-"+$(document).scrollTop()/14+"deg)", "-ms-transform" : "rotate(-"+$(document).scrollTop()/14+"deg)"})
+        
+        $("#juicebar-4").css({"transform" : "rotate("+$(document).scrollTop()/40+"deg)", "-webkit-transform" : "rotate("+$(document).scrollTop()/40+"deg)", "-moz-transform" : "rotate("+$(document).scrollTop()/40+"deg)", "-ms-transform" : "rotate("+$(document).scrollTop()/40+"deg)"})
+        
+        $("#juicebar-5").css({"transform" : "rotate("+$(document).scrollTop()/14+"deg)", "-webkit-transform" : "rotate("+$(document).scrollTop()/14+"deg)", "-moz-transform" : "rotate("+$(document).scrollTop()/14+"deg)", "-ms-transform" : "rotate("+$(document).scrollTop()/14+"deg)"})
+        
+        $("#juicebar-6").css({"transform" : "rotate("+$(document).scrollTop()/14+"deg)", "-webkit-transform" : "rotate("+$(document).scrollTop()/14+"deg)", "-moz-transform" : "rotate("+$(document).scrollTop()/14+"deg)", "-ms-transform" : "rotate("+$(document).scrollTop()/14+"deg)"})
+      })
+  
+      
+  //go to top
+      $(document).ready(function(){
+        $(this).scrollTop(0);
+      });
+      //when we are on the about tab
+      $(document).on('scroll', function() {
+      if(($(document).scrollTop()>=$('#about').offset().top-5)&&($(document).scrollTop()<$('#projects').offset().top+1)){
+        $("#about-button").css({"width":"60%", "height":"120px", "background-color": "#C65ED6","border":"none","color": "white"});
+        $("#projects-button").css({width:"20%"})
+        $("#query-button").css({width:"20%"})
+      }
+        else{
+          $("#about-button").css({"height":"100px", "background-color": "white","border":"none", "width":"33.33%","color": "black"});
+          $("#projects-button").css({width:"33.33%"})
+          $("#query-button").css({width:"33.33%"})
+        }
+      })
+      
+      //when we are on the projects tab
+  
+      $(document).on('scroll', function() {
+      if(($(document).scrollTop()>=$('#projects').offset().top-1)&&($(document).scrollTop()<$('#query').offset().top+1)){
+        $("#projects-button").css({"width":"60%", "height":"120px", "background-color": "#C65ED6","border":"none", "color": "white"});
+        $("#about-button").css({width:"20%","background-color": "white", "height": "100px", "color": "black"})
+        $("#query-button").css({width:"20%","background-color": "white","color": "black"})
+      }
+        else{
+          $("#projects-button").css({"height":"100px", "background-color": "white","border":"none","color": "black"});
+        }
+      })
+      
+      //when we are on the projects tab
+  
+      $(document).on('scroll', function() {
+      if(($(document).scrollTop()>=$('#query').offset().top-1)){
+        $("#query-button").css({"width":"60%", "height":"120px", "background-color": "#C65ED6","border":"none","color": "white"});
+        $("#about-button").css({width:"20%"})
+        $("#projects-button").css({width:"20%","background-color": "white", "height": "100px","color": "black"})
+      }
+        else{
+          $("#query-button").css({"height":"100px", "background-color": "white","border":"none","color": "black"});
+        }
+      })
+  
+      $("#about-button").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#about").offset().top
+      }, 1000);
+        $("#about-button").css({'outline':'none'});
+      })
+  
+      $("#projects-button").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#projects").offset().top
+      }, 1000);
+        $("#projects-button").css({'outline':'none'});
+      });
+  $("#query-button").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#query").offset().top
+      }, 1000);
+      $("#query-button").css({'outline':'none'});
+      });
+</script>
